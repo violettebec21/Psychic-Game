@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Psychic Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+ <!-- Bring in our bootstrap stylesheet -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+ crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+  /head>
+
+<body>
+
+  <container>
+    <div class="content">
+
+      <div class="row wrapper">
+        <div class="col-sm-1"></div>
+      
+          <div class="container"></div>
+
+        <div class="col-sm-2">
+          <!-- <img src="assets/images/saved-by-the-90s.jpg" class="auth-image" alt="saved by the 90s image" width="416px"> -->
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5 text-center">
+          <header>
+            <h1>The Psychic Game</h1>
+          </header>
+          <div class="instructions">
+            <h3>Guess what letter I'm thinking of...</h3>
+          </div>
+
+
+          <!--empty div for score keeping-->
+          <div id="game">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <span id="wins">Wins: </span>
+              </li>
+              <li class="list-group-item">
+                <p id="losses">Losses: </p>
+              </li>
+              <li class="list-group-item">
+                <p id="guessLeft">Remaining Guesses: </p>
+              </li>
+              <li class="list-group-item">
+                <p id="let">You guessed: </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+
+    </div>
+    </div>
+  </container>
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
